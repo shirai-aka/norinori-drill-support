@@ -5,7 +5,7 @@ expected_name='ノリノリドリル'
 expected_bundle='com.shirai.abcfever'
 forbidden_names='論理の塔 ドーパミン ABCフィーバー LOGIC AdMob'
 
-files='index.html support/index.html privacy-policy/index.html'
+files='index.html support/index.html privacy-policy/index.html index.en.html support/index.en.html privacy-policy/index.en.html'
 
 for file in $files; do
   test -f "$file"
@@ -27,4 +27,4 @@ grep -Fq 'App Tracking Transparency' privacy-policy/index.html
 grep -Fq 'shirai.apps@ymail.ne.jp' privacy-policy/index.html
 grep -Fq 'shirai.apps@ymail.ne.jp' support/index.html
 
-echo 'SITE_VALIDATION_PASS / NORINORI DRILL / 3 PAGES'
+echo 'SITE_VALIDATION_PASS / NORINORI DRILL / 6 PAGES'

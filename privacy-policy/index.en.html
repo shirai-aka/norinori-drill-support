@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Privacy Policy | ノリノリドリル (NoriNori Drill)</title>
+  <meta name="description" content="How ノリノリドリル (NoriNori Drill) handles information.">
+  <link rel="alternate" hreflang="ja" href="./">
+  <link rel="alternate" hreflang="en" href="./index.en.html">
+  <style>
+    :root {
+      --bg: #f8f3ea; --card: #fffdf8; --ink: #3d3028; --sub: #7a6a5c; --line: #e6dccd;
+      --accent: #b86a24; --accent-soft: #f6e7d6; --focus: #2b6cb0;
+      color-scheme: light dark;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #17151a; --card: #221f25; --ink: #f1ebe2; --sub: #b4a99c; --line: #3a3540;
+        --accent: #e9a25c; --accent-soft: #342a21; --focus: #8ab4f8; }
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0; background: var(--bg); color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Segoe UI", Roboto, sans-serif;
+      font-size: 16px; line-height: 1.8; overflow-wrap: anywhere;
+    }
+    a { color: var(--accent); text-underline-offset: 3px; }
+    a:hover { text-decoration-thickness: 2px; }
+    a:focus-visible, label:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
+    .wrap { width: min(760px, 100%); margin: 0 auto; padding: 0 16px; }
+    .site-header { border-bottom: 1px solid var(--line); background: var(--card); }
+    .site-nav { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; min-height: 52px; padding: 8px 0; font-size: 14px; }
+    .site-nav a { text-decoration: none; font-weight: 600; }
+    .site-nav .home::before { content: "\2190\00a0"; }
+    .site-nav .lang { margin-left: auto; padding: 4px 12px; border: 1px solid var(--line); border-radius: 999px; }
+    .site-nav .lang:hover { background: var(--accent-soft); }
+    main { padding: 36px 0 56px; }
+    .page-header { margin-bottom: 28px; }
+    .eyebrow { margin: 0 0 4px; font-size: 15px; font-weight: 700; color: var(--accent); }
+    .eyebrow a { text-decoration: none; }
+    h1 { margin: 0; font-size: clamp(24px, 5.5vw, 32px); line-height: 1.3; }
+    .meta { margin: 10px 0 0; color: var(--sub); font-size: 14px; }
+    .lead { font-size: 17px; }
+    h2 { font-size: 20px; line-height: 1.4; margin: 44px 0 12px; padding-top: 20px; border-top: 1px solid var(--line); }
+    h3 { font-size: 17px; line-height: 1.5; margin: 28px 0 6px; }
+    p, ul, ol { margin: 0 0 1em; }
+    ul, ol { padding-left: 1.4em; }
+    li { margin: .3em 0; }
+    li > ul, li > ol { margin: .3em 0 .3em; }
+    strong { font-weight: 700; }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 32px 0; }
+    table { border-collapse: collapse; width: 100%; margin: 0 0 1em; font-size: 15px; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+    th { background: var(--accent-soft); font-weight: 700; }
+    .box { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px 20px; margin: 0 0 1.4em; }
+    .box > :first-child { margin-top: 0; }
+    .box > :last-child { margin-bottom: 0; }
+    .box ul, .box ol { margin-bottom: 0; }
+    .notice { border-left: 4px solid var(--accent); background: var(--accent-soft); border-radius: 10px; padding: 12px 16px; margin: 0 0 28px; font-size: 14px; color: var(--ink); }
+    .notice p { margin: 0; }
+    .card { display: block; background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px; margin: 0 0 14px; }
+    .card h2 { margin: 0 0 6px; padding: 0; border: 0; font-size: 19px; }
+    .card p { margin: 0 0 8px; color: var(--sub); }
+    .card p:last-child { margin: 0; }
+    .card a.more { font-weight: 700; text-decoration: none; }
+    .card a.more::after { content: "\00a0\2192"; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; margin: 0 0 1.4em; }
+    .gallery figure { margin: 0; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 8px; }
+    .gallery img { width: 100%; height: auto; border-radius: 8px; display: block; }
+    .gallery figcaption { font-size: 12px; color: var(--sub); text-align: center; margin-top: 6px; }
+    .site-footer { border-top: 1px solid var(--line); padding: 20px 0 48px; color: var(--sub); font-size: 14px; }
+    .site-footer nav { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-bottom: 10px; }
+    .site-footer nav a { text-decoration: none; font-weight: 600; }
+    .site-footer p { margin: 0; }
+    @media (max-width: 480px) {
+      body { font-size: 15.5px; }
+      main { padding-top: 28px; }
+      h2 { margin-top: 36px; }
+      table { display: block; overflow-x: auto; }
+    }
+    @media print {
+      .site-header, .site-footer nav { display: none; }
+      body { background: #fff; color: #000; }
+      a { color: inherit; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="site-nav wrap" aria-label="Site">
+      <a class="home" href="https://shirai-aka.github.io/">All apps</a>
+      <a class="lang" href="./" lang="ja" hreflang="ja">日本語</a>
+    </nav>
+  </header>
+  <main class="wrap" id="main">
+    <article>
+      <header class="page-header">
+        <p class="eyebrow"><a href="../index.en.html">ノリノリドリル (NoriNori Drill)</a></p>
+        <h1>Privacy Policy</h1>
+      <p class="meta">Last updated: October 18, 2026</p>
+      </header>
+<div class="notice" role="note"><p>This English page is a reference translation of the Japanese original, provided for convenience. The Japanese text is the official version; where the two differ, the Japanese text applies.</p></div>
+<p class="lead">“ノリノリドリル” (NoriNori Drill; the “App”) is a learning app for iPhone / iPad intended for preschoolers to early elementary school children. This policy explains how information is handled in the App.</p>
+
+    <h2>1. Information the App Obtains</h2>
+    <p>The App does not ask you to enter, and does not obtain, information that could identify the child or the parent, such as name, address, telephone number, email address, photos, audio or location. There is no account registration either.</p>
+    <p>To provide its learning features, the App stores the following information only on the device.</p>
+    <ul>
+      <li>Learning records for each world and question (number of correct and incorrect answers, date and time last played, date and time of the next presentation)</li>
+      <li>Stickers collected and the number of sessions played</li>
+      <li>Settings such as sound, voice and volume, and the level or grade for each world</li>
+    </ul>
+    <p>This information is never sent outside the device, and no third party, including the developer, can see it.</p>
+
+    <h2>2. Purposes of Use</h2>
+    <ul>
+      <li>Deciding which question to present next and how difficult it is</li>
+      <li>Displaying stickers and the number of sessions played</li>
+      <li>Saving settings</li>
+    </ul>
+
+    <h2>3. Network Communication, Ads and Provision to Third Parties</h2>
+    <p>The App does not communicate over the network. It does not display ads. It does not include external services or third-party software development kits (SDKs) for access analytics, crash analytics, ad delivery or the like.</p>
+    <p>The App does not sell or provide user information to third parties. The voice (read-aloud) uses the standard iOS / iPadOS speech synthesis built into the device, and it is processed on the device.</p>
+
+    <h2>4. Tracking</h2>
+    <p>The App does not track users across other companies’ apps or websites. For that reason, it does not show the permission dialog under App Tracking Transparency.</p>
+
+    <h2>5. Device Permissions and Notifications</h2>
+    <p>The App does not request permissions such as camera, microphone, photos, location or contacts. It does not send notifications either.</p>
+
+    <h2>6. Parents’ Area and External Links</h2>
+    <p>The settings for parents and the links to this page and the support page are placed only beyond an arithmetic question intended for parents (the parental gate). The links open in Safari.</p>
+
+    <h2>7. Data Management and Deletion</h2>
+    <p>Learning records and stickers can be deleted with “すべての学習の記録とシールを消す” (Delete all learning records and stickers) under “おうちのかたへ” (For parents). If you delete the App, all data stored on the device is deleted as well.</p>
+
+    <h2>8. Children’s Privacy</h2>
+    <p>The App is designed for use by children, and it does not collect personal information from anyone, regardless of age. If the handling of information changes in the future, this policy will be updated beforehand and parental consent obtained as necessary.</p>
+
+    <h2>9. Revisions</h2>
+    <p>This policy may be revised in response to new features or changes in laws or platform rules. Revisions will be published on this page.</p>
+
+    <h2>10. Contact</h2>
+    <p>For inquiries about this policy, please contact the email address below.</p>
+    <p>Email: <a href="mailto:shirai.apps@ymail.ne.jp">shirai.apps@ymail.ne.jp</a></p>
+
+    <p><a href="../support/index.en.html">Back to the support page</a></p>
+    </article>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <nav aria-label="Pages"><a href="../index.en.html">Top</a><a href="../support/index.en.html">Support</a><a href="../privacy-policy/index.en.html">Privacy Policy</a></nav>
+      <p>Contact: <a href="mailto:shirai.apps@ymail.ne.jp">shirai.apps@ymail.ne.jp</a> · © Raimu Okano</p>
+    </div>
+  </footer>
+</body>
+</html>
